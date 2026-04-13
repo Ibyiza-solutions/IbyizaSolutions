@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Ibyiza Solutions | Industrial Automation & Engineering Systems</title>
+<meta name="description" content="Ibyiza Solutions provides industrial automation, electrical systems, and smart engineering solutions including control systems and IoT-based monitoring." />
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #e5e7eb;
+  background: #0b1220;
+  scroll-behavior: smooth;
+}
+
+/* NAV */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(10, 15, 28, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #1f2937;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10%;
+}
+
+nav h2 {
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #cbd5e1;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  background: linear-gradient(to right, #0a0f1c, #111827, #1f2937);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: auto;
+  color: #94a3b8;
+  margin-bottom: 25px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #38bdf8;
+  color: #0b1220;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+/* SECTIONS */
+section {
+  padding: 90px 10%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* CARDS */
+.card {
+  background: #111827;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #38bdf8;
+}
+
+.card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #94a3b8;
+}
+
+/* ABOUT */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about p {
+  color: #94a3b8;
+}
+
+/* CONTACT */
+.contact-box {
+  text-align: center;
+  background: #111827;
+  padding: 40px;
+  border-radius: 12px;
+  border: 1px solid #1f2937;
+}
+
+.contact-box p {
+  margin: 10px 0;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #0a0f1c;
+  border-top: 1px solid #1f2937;
+  color: #94a3b8;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 14px 16px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+@media(max-width:768px){
+  .about {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <h2>Ibyiza Solutions</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div>
+    <h1>Industrial Automation & Smart Engineering Solutions</h1>
+    <p>
+      We design and implement automation systems, electrical control solutions,
+      and smart industrial technologies for efficient operations.
+    </p>
+    <a href="#contact" class="btn">Contact Us</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2 class="section-title">Our Services</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Industrial Automation</h3>
+      <p>PLC systems, machine automation, and process control solutions.</p>
+    </div>
+
+    <div class="card">
+      <h3>Electrical Systems</h3>
+      <p>Installation, troubleshooting, and optimization of industrial electrical systems.</p>
+    </div>
+
+    <div class="card">
+      <h3>Smart Monitoring</h3>
+      <p>IoT and embedded systems including smart metering and monitoring solutions.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2 class="section-title">Key Projects</h2>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Smart Water Meter System</h3>
+      <p>Prepaid water monitoring system with real-time consumption tracking.</p>
+    </div>
+
+    <div class="card">
+      <h3>Conveyor Automation</h3>
+      <p>Optimization of packaging line conveyors and control systems.</p>
+    </div>
+
+    <div class="card">
+      <h3>Industrial Control Panels</h3>
+      <p>Design and installation of PLC-based control panels for production systems.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2 class="section-title">About Us</h2>
+
+  <div class="about">
+    <div>
+      <h3>Who We Are</h3>
+      <p>
+        Ibyiza Solutions is an engineering company specializing in industrial automation,
+        electrical systems, and smart technology integration. We support industries with
+        control systems, process optimization, and custom engineering solutions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+
+  <div class="contact-box">
+    <p><strong>Phone:</strong> +250 XXX XXX XXX</p>
+    <p><strong>Email:</strong> info@ibyizasolutions.com</p>
+    <p><a class="btn" href="https://wa.me/250XXXXXXXXX">Chat on WhatsApp</a></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Ibyiza Solutions. All Rights Reserved.
+</footer>
+
+<!-- WhatsApp Floating -->
+<a class="whatsapp" href="https://wa.me/250XXXXXXXXX">WA</a>
+
+</body>
+</html>
