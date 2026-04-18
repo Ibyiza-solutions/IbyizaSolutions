@@ -17,7 +17,7 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ibyizasolutions.com">
 <meta property="og:image" content="https://ibyizasolutions.com/images/factory.jpg">
-
+<link rel="icon" type="image/png" href="logo.png">
 <style>
 * {
   margin: 0;
@@ -51,11 +51,6 @@ nav {
   padding: 15px 10%;
 }
 
-nav h2 {
-  color: #ffffff;
-  letter-spacing: 1px;
-}
-
 nav a {
   margin-left: 20px;
   text-decoration: none;
@@ -65,6 +60,19 @@ nav a {
 
 nav a:hover {
   color: #38bdf8;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.logo img {
+  height: 45px;
+  width: auto;
 }
 
 /* HERO */
@@ -217,7 +225,10 @@ footer {
 
 <header>
   <nav>
-    <h2>Ibyiza Solutions</h2>
+    <div class="logo">
+      <img src="logo.png" alt="Ibyiza Solutions Logo">
+      <span>Ibyiza Solutions</span>
+    </div>
     <div>
       <a href="#home">Home</a>
       <a href="#services">Services</a>
@@ -285,4 +296,12 @@ footer {
     <div>
       <h3>Who We Are</h3>
       <p>
-        Ibyiza Solutio
+        Ibyiza Solutions is an engineering company focused on delivering industrial automation,
+        electrical systems, and smart monitoring solutions for commercial and industrial clients.
+      </p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
